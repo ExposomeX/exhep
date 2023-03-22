@@ -42,7 +42,7 @@ res2$Expo$Data
 ```R
 res3 <- ConvToExpoID(PID=res$PID,
                 OutPath =OutPath)
-res3$Expo$Data
+res3
 ```
 #### 4. Predict blood concentrations of chemicals
 ```R
