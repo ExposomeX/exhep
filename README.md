@@ -62,7 +62,7 @@ res5<- VizPredBlood(PID=res$PID,
                 Brightness = "light",
                 Palette = "default1")
 res5$VizPredBlood$plot_pred
-res5$$VizPredBlood$ForestPlot
+res5$VizPredBlood$ForestPlot
 ```
 
 #### 6.Exit
