@@ -1,0 +1,18 @@
+Package: exHExpPred
+Title: ExpoHExpPredict module is designed  to predict blood concentrations of chemicals and prioritize chemicals of health concern. 
+Version: 1.0.0
+Authors@R: 
+    person(given='bin',
+    family = 'Wang',
+    role= c('aut','cph','cre'),
+    email = "binwang@pku.edu.cn")
+Description:  Developing a prediction model on the annotation of chemicals in human blood can provide new insight into 
+    the distribution and extent of exposures to a wide range of chemicals in humans. Our objective of this module is 
+    to develop a machine learning model (eg., random forest) to predict blood concentrations of chemicals and prioritize 
+    chemicals of health concern.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: httr,writexl,ggplot2,readxl,vroom
+
