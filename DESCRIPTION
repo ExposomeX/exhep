@@ -1,18 +1,23 @@
-Package: exHExpPred
-Title: ExpoHExpPredict module is designed  to predict blood concentrations of chemicals and prioritize chemicals of health concern. 
+Package: exhep
+Title: This package is to develop a machine learning model of random forest to predict blood concentrations of chemicals and prioritize chemicals of health concern.
 Version: 1.0.0
-Authors@R: 
-    person(given='bin',
-    family = 'Wang',
-    role= c('aut','cph','cre'),
-    email = "binwang@pku.edu.cn")
-Description:  Developing a prediction model on the annotation of chemicals in human blood can provide new insight into 
-    the distribution and extent of exposures to a wide range of chemicals in humans. Our objective of this module is 
-    to develop a machine learning model (eg., random forest) to predict blood concentrations of chemicals and prioritize 
-    chemicals of health concern.
+Authors@R:
+  c(
+    person(given='Fanrong',
+           family = 'Zhao',
+           role= c('aut'),
+           email = "zhaofanrong1024@163.com"), 
+    person(given='Mingliang',
+           family = 'Fang',
+           role= c('aut','cre'),
+           email = "mlfang@fudan.edu.cn"),     
+    person(given='Bin',
+           family = 'Wang',
+           role= c('cph'),
+           email = "binwang@pku.edu.cn")
+   )
+Description: Quantification of all trace organics in the biological fluids seems impossible and costly, regardless of the high individual exposure variability. We hypothesized that the blood concentration of organic pollutants could be predicted via their exposure and chemical properties. Developing a prediction model on the annotation of chemicals in human blood can provide new insight into the distribution and extent of exposures to a wide range of chemicals in humans. Our objective of this module is to develop a machine learning model (eg., random forest) to predict blood concentrations of chemicals and prioritize chemicals of health concern.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
-Imports: httr,writexl,ggplot2,readxl,vroom
-
+RoxygenNote: 7.2.3
