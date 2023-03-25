@@ -1,5 +1,5 @@
-# exHExpPred: Exposome HexpPred Module 
-### Author: Changxin Lan (lancx_pku@foxmail.com)
+# exhep: HExpPred Module 
+### Author: Bin Wang (binwang@pku.edu.cn)
 ### Date: 2023-03-22
 HExpPred module is designed  to predict blood concentrations of chemicals and prioritize chemicals of health concern.
 
@@ -9,10 +9,10 @@ if (!requireNamespace("devtools", quietly = TRUE)){
 
 	install.packages("devtools")
 
-	devtools::install_github('ExposomeX/exHExpPred',force = TRUE)
+	devtools::install_github('ExposomeX/exhep',force = TRUE)
 }
 
-library(exHExpPred)
+library(exhep)
 ```
 
 ### Tips:
